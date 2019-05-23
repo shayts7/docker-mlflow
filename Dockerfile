@@ -5,7 +5,7 @@ LABEL maintainer "Shay Tsadok <shayts7@gmail.com>"
 RUN mkdir /mlflow/
 
 RUN pip install mlflow==0.9.1
-RUN pip install docker
+RUN apt-get install docker
 
 EXPOSE 5000
 
