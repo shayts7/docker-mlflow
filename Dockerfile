@@ -14,7 +14,6 @@ RUN add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debia
 
 RUN apt-get update
 RUN apt-get -y install docker-ce
-RUN docker run hello-world
 
 EXPOSE 5000
 
